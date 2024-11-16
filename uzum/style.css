@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promokod {
+}
+.container {
+    width: 1200px;
+    border: 2px solid black;
+}
+.promokod__wrapper {
+    width: 1000px;
+    height: 400px;
+    border-radius: 16px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+.promokod__wrapper:hover .uzum__img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.uzum__img {
+    width: 100%;
+    height: 100%;
+    transition: transform 2s ease;
+}
